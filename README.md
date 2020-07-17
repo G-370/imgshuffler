@@ -11,9 +11,13 @@ It is still unusable as a "tool to mix images' channels into new images", but I 
 ## How to use
 
 Install the Pillow lib for Python3 
+
   `python -m pip install --upgrade pillow`
 
-To use the script. 
+To use the script.
+
   `python imgshuf.py imgsize img1 img2 img3`
+  
   imgsize is the size of the three new images to be generated
+  
   img1, img2, img3 are the respective source images to be "shuffled" 
